@@ -237,14 +237,13 @@ export default function Page() {
                 Chi sono
               </h3>
               
-              <div className="mb-6 overflow-hidden rounded-xl border border-border-custom bg-bg-card p-2 max-w-xs">
+              <div className="mb-6 p-2 ">
                 <Image 
-                  src="/profile.jpg" 
+                  src="/img/7.png" 
                   alt="Paola Grillo" 
-                  width={300} 
-                  height={300} 
+                  width={1000} 
+                  height={1000} 
                   priority
-                  className="rounded-lg object-cover w-full h-auto"
                 />
               </div>
 
