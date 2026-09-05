@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #0a0a0c;
+  --bg-card: rgba(15, 23, 42, 0.6);
+  --accent-color: #00ff66;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --border-color: rgba(51, 65, 85, 0.8);
+
+  --background: var(--bg-primary);
+  --foreground: var(--text-primary);
+
+  /* colori usati per lo sfondo tech e lo spotlight, prima erano rgba hardcoded */
+  --grid-dot-color: rgba(255, 255, 255, 0.15);
+  --grid-line-color: rgba(255, 255, 255, 0.03);
+  --spotlight-color: rgba(0, 255, 102, 0.07);
+
+  /* testo su sfondo accent pieno (badge attivo, numero "01" ecc.) */
+  --text-on-accent: #050505;
+
+  /* ombra "a scalino" sotto i bottoni non attivi della nav */
+  --nav-shadow-color: #0f172a;
+}
+
+@theme {
+  --color-accent: var(--accent-color);
+  --color-bg-main: var(--bg-primary);
+  --color-bg-card: var(--bg-card);
+  --color-text-main: var(--text-primary);
+  --color-text-sub: var(--text-secondary);
+  --color-border-custom: var(--border-color);
+  --color-text-on-accent: var(--text-on-accent);
+
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}
