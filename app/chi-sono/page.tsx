@@ -465,8 +465,8 @@ export default function Page() {
       
 {/* FAQ 1: Interesse per il web */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
-          <span>Da dove nasce il tuo interesse per il web?</span>
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
+            <span>Da dove nasce il tuo interesse per il web?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
             fill="none" 
@@ -485,8 +485,8 @@ export default function Page() {
 
       {/* FAQ 2: Scelta */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
-          <span>Perché hai scelto di orientarti verso il Frontend Development?</span>
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
+                <span>Perché hai scelto di orientarti verso il Frontend Development?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
             fill="none" 
@@ -498,15 +498,15 @@ export default function Page() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
           </svg>
         </summary>
-        <p className="mt-3 font-sans leading-relaxed text-text-sub">
+        <p className="mt-3 font-sans leading-relaxed text-text-sub text-base">
           Perché mi permette di unire due aspetti che mi appassionano: la creatività e la tecnologia. Mi piace trasformare un'idea visiva in un'interfaccia reale, funzionale, responsive e piacevole da utilizzare.
         </p>
       </details>
 
       {/* FAQ 3: approccio */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
-          <span>Come descriveresti il tuo approccio al design e allo sviluppo?</span>
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
+            <span>Come descriveresti il tuo approccio al design e allo sviluppo?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
             fill="none" 
@@ -525,8 +525,8 @@ export default function Page() {
 
       {/* FAQ 4: obiettivo professionale */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
-          <span>Qual è il tuo obiettivo professionale?</span>
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
+            <span>Qual è il tuo obiettivo professionale?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
             fill="none" 
@@ -545,8 +545,8 @@ export default function Page() {
 
       {/* FAQ 5: Difficoltà */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
-          <span>Come affronti un progetto quando devi imparare qualcosa di nuovo?</span>
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
+            <span>Come affronti un progetto quando devi imparare qualcosa di nuovo?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
             fill="none" 
@@ -565,8 +565,8 @@ export default function Page() {
 
       {/* FAQ 6: Tipologia di Contratto */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
-          <span>Come mantieni aggiornate le tue competenze?</span>
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
+            <span>Come mantieni aggiornate le tue competenze?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
             fill="none" 

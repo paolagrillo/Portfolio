@@ -260,15 +260,15 @@ export default function ContactsPage() {
  <section>
   {/* FAQ rapide per Recruiter */}
   <div className="space-y-4">
-    <h3 className="text-sm font-mono uppercase tracking-widest text-accent mb-8">
+    <h3 className="font-mono uppercase tracking-widest text-accent mb-8">
       FAQ Rapide
     </h3>
 
-    <div className="grid gap-3 font-mono text-xs">
+    <div className="grid gap-3 font-mono">
       
       {/* FAQ 1: profilo professionale */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
           <span>Qual è il tuo profilo professionale?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
@@ -281,14 +281,14 @@ export default function ContactsPage() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
           </svg>
         </summary>
-        <p className="mt-3 font-sans leading-relaxed text-text-sub">
+        <p className="mt-3 font-sans leading-relaxed text-text-sub text-base">
          Mi propongo come Junior Frontend Developer / UI/UX Designer, con una formazione che unisce sviluppo web e progettazione grafica. Mi interessa lavorare su interfacce moderne, responsive e curate, mettendo insieme competenze tecniche e sensibilità per il design.
         </p>
       </details>
 
       {/* FAQ 2: tecnologie */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
           <span>Quali tecnologie utilizzi principalmente?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
@@ -307,7 +307,7 @@ Lavoro principalmente con React, Next.js, TypeScript e Tailwind CSS per lo svilu
 
       {/* FAQ 3: disponibilità */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
           <span>Sei disponibile da subito?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
@@ -327,7 +327,7 @@ Sì, sono disponibile da subito per opportunità full remote e ibride nell'area 
 
       {/* FAQ 4: obiettivo professionale */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
           <span>Che tipo di opportunità stai cercando?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
@@ -347,7 +347,7 @@ Sono interessata principalmente a opportunità come Junior Frontend Developer o 
 
       {/* FAQ 5: teaom o autonomo */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
           <span>Preferisci lavorare in autonomia o in team?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
@@ -367,7 +367,7 @@ Sono interessata principalmente a opportunità come Junior Frontend Developer o 
 
       {/* FAQ 6: trasformazione */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
           <span>Come trasformi un design Figma in un'interfaccia web?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
@@ -387,7 +387,7 @@ Sono interessata principalmente a opportunità come Junior Frontend Developer o 
 
           {/* FAQ 7: responsive design */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
           <span>Come lavori sul responsive design?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
@@ -407,7 +407,7 @@ Sono interessata principalmente a opportunità come Junior Frontend Developer o 
 
                 {/* FAQ 8: wordpress */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
           <span>Hai esperienza con WordPress?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
@@ -427,7 +427,7 @@ Sì, ho esperienza nella configurazione e personalizzazione di siti WordPress, c
 
               {/* FAQ 9: wordpress */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
           <span>Come gestisci il codice e il deployment?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
@@ -446,7 +446,7 @@ Utilizzo Git e GitHub per il controllo versione del codice e Vercel per il deplo
 
           {/* FAQ 10: REST API */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
-        <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
+<summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main text-sm transition-colors group-hover:text-accent">
           <span>Hai esperienza con API e gestione dei dati?</span>
           <svg 
             className="h-4 w-4 shrink-0 text-text-sub transition-transform duration-200 group-open:rotate-180 group-hover:text-accent" 
