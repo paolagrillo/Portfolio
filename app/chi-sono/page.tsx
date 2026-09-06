@@ -247,7 +247,7 @@ export default function Page() {
                 />
               </div>
 
-              <div className="space-y-3 text-sm text-text-main leading-relaxed font-sans">
+              <div className="space-y-3 max-w-2xl text-text-main leading-relaxed font-sans">
                 <p>
                   Ho iniziato il mio percorso nel mondo della Grafica e della Comunicazione, sviluppando fin da subito una forte attenzione per il design, la creatività e la cura dei dettagli. Nel tempo ho scoperto un interesse sempre più forte per il mondo dello sviluppo web, intraprendendo un percorso di formazione che mi ha permesso di avvicinarmi alla programmazione e alla realizzazione di interfacce digitali.
                 </p>
@@ -461,7 +461,7 @@ export default function Page() {
       FAQ Rapide
     </h3>
 
-    <div className="grid gap-3 font-mono text-xs">
+    <div className="grid gap-3 font-mono ">
       
 {/* FAQ 1: Interesse per il web */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
@@ -478,7 +478,7 @@ export default function Page() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
           </svg>
         </summary>
-        <p className="mt-3 font-sans leading-relaxed text-text-sub text-xs">
+        <p className="mt-3 font-sans leading-relaxed text-text-sub text-base">
           Il mio percorso è iniziato nel mondo della Grafica e della Comunicazione, dove ho sviluppato una forte attenzione per il design e la cura dei dettagli. Successivamente ho scoperto un interesse sempre maggiore per lo sviluppo web, iniziando a unire la componente visiva alla programmazione.
         </p>
       </details>
