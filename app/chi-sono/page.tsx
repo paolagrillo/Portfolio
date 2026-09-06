@@ -247,7 +247,7 @@ export default function Page() {
                 />
               </div>
 
-              <div className="space-y-3 text-text-main leading-relaxed font-sans">
+              <div className="space-y-3 text-sm text-text-main leading-relaxed font-sans">
                 <p>
                   Ho iniziato il mio percorso nel mondo della Grafica e della Comunicazione, sviluppando fin da subito una forte attenzione per il design, la creatività e la cura dei dettagli. Nel tempo ho scoperto un interesse sempre più forte per il mondo dello sviluppo web, intraprendendo un percorso di formazione che mi ha permesso di avvicinarmi alla programmazione e alla realizzazione di interfacce digitali.
                 </p>
@@ -463,7 +463,7 @@ export default function Page() {
 
     <div className="grid gap-3 font-mono text-xs">
       
-      {/* FAQ 1: Interesse per il web */}
+{/* FAQ 1: Interesse per il web */}
       <details className="group rounded-xl border border-border-custom bg-bg-card p-4 transition-all duration-200 hover:border-accent/50 open:border-accent/50 [&_summary::-webkit-details-marker]:hidden">
         <summary className="flex cursor-pointer list-none items-center justify-between font-semibold text-text-main transition-colors group-hover:text-accent">
           <span>Da dove nasce il tuo interesse per il web?</span>
@@ -478,7 +478,7 @@ export default function Page() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
           </svg>
         </summary>
-        <p className="mt-3 font-sans leading-relaxed text-text-sub">
+        <p className="mt-3 font-sans leading-relaxed text-text-sub text-xs">
           Il mio percorso è iniziato nel mondo della Grafica e della Comunicazione, dove ho sviluppato una forte attenzione per il design e la cura dei dettagli. Successivamente ho scoperto un interesse sempre maggiore per lo sviluppo web, iniziando a unire la componente visiva alla programmazione.
         </p>
       </details>
@@ -499,7 +499,7 @@ export default function Page() {
           </svg>
         </summary>
         <p className="mt-3 font-sans leading-relaxed text-text-sub">
-Perché mi permette di unire due aspetti che mi appassionano: la creatività e la tecnologia. Mi piace trasformare un'idea visiva in un'interfaccia reale, funzionale, responsive e piacevole da utilizzare.
+          Perché mi permette di unire due aspetti che mi appassionano: la creatività e la tecnologia. Mi piace trasformare un'idea visiva in un'interfaccia reale, funzionale, responsive e piacevole da utilizzare.
         </p>
       </details>
 
@@ -519,7 +519,7 @@ Perché mi permette di unire due aspetti che mi appassionano: la creatività e l
           </svg>
         </summary>
         <p className="mt-3 font-sans leading-relaxed text-text-sub">
-Cerco di mantenere un equilibrio tra estetica, usabilità e funzionalità. Per me un'interfaccia non deve essere soltanto bella, ma anche intuitiva, accessibile e coerente con l'esperienza che deve offrire all'utente.
+          Cerco di mantenere un equilibrio tra estetica, usabilità e funzionalità. Per me un'interfaccia non deve essere soltanto bella, ma anche intuitiva, accessibile e coerente con l'esperienza che deve offrire all'utente.
         </p>
       </details>
 
@@ -539,7 +539,7 @@ Cerco di mantenere un equilibrio tra estetica, usabilità e funzionalità. Per m
           </svg>
         </summary>
         <p className="mt-3 font-sans leading-relaxed text-text-sub">
-Il mio obiettivo è crescere nel mondo dello sviluppo frontend, consolidando le mie competenze tecniche e continuando a valorizzare la mia formazione nel design. Voglio costruire esperienza attraverso progetti concreti e il confronto con professionisti del settore.
+          Il mio obiettivo è crescere nel mondo dello sviluppo frontend, consolidando le mie competenze tecniche e continuando a valorizzare la mia formazione nel design. Voglio costruire esperienza attraverso progetti concreti e il confronto con professionisti del settore.
         </p>
       </details>
 
@@ -579,10 +579,9 @@ Il mio obiettivo è crescere nel mondo dello sviluppo frontend, consolidando le 
           </svg>
         </summary>
         <p className="mt-3 font-sans leading-relaxed text-text-sub">
-         Dedico regolarmente tempo allo studio individuale, alla sperimentazione attraverso i miei progetti e alla consultazione della documentazione ufficiale. Mi interessa soprattutto imparare attraverso la pratica e continuare a migliorare nel tempo.
+          Dedico regolarmente tempo allo studio individuale, alla sperimentazione attraverso i miei progetti e alla consultazione della documentazione ufficiale. Mi interessa soprattutto imparare attraverso la pratica e continuare a migliorare nel tempo.
         </p>
       </details>
-
     
 
     </div>
