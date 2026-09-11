@@ -36,11 +36,11 @@ export default function Page() {
 
       {/* Contenitore Principale */}
       <div className="relative z-10 mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
-        <div className="lg:flex lg:justify-between lg:gap-8">
+        <div className="lg:flex lg:justify-between lg:gap-8 lg:items-start">
           
-          {/* COLONNA SINISTRA */}
+      {/* COLONNA SINISTRA */}
           <div className="lg:w-4/12 xl:w-3/12 lg:sticky lg:top-0 lg:h-screen lg:pr-4">
-            <header className="flex h-full flex-col justify-between lg:py-24 py-12">
+            <header className="flex h-full flex-col justify-between lg:py-10 py-12">
               <div>
                 <h1 className="text-4xl font-bold tracking-tight text-text-main sm:text-5xl">
                   Paola Grillo
@@ -53,23 +53,21 @@ export default function Page() {
                 </p>
 
                 {/* Navigazione */}
-                <nav className="nav hidden lg:block mt-12" aria-label="Navigazione principale">
-                  <ul className="flex flex-col gap-3.5 max-w-[220px]">
-                    
-                    {/* HOME */}
-                    <li>
+                <nav className="nav hidden lg:block mt-8" aria-label="Navigazione principale">
+  <ul className="flex flex-col gap-2 max-w-[220px]">
+                        <li>
                       <Link 
                         href="/"
                         className={`group flex items-center justify-between rounded-lg border px-4 py-3 font-mono text-xs font-semibold uppercase tracking-wider transition-all duration-150 ${
                           activeSection === "home"
-                            ? "border-accent bg-bg-card text-accent shadow-sm"
-                            : "border-border-custom bg-bg-card text-text-main hover:border-accent hover:text-accent"
+                            ? "border-accent bg-bg-card text-accent shadow-[0_4px_12px_rgba(0,255,102,0.2)]"
+                            : "border-border-custom bg-bg-card text-text-main shadow-[0_4px_0_0_#0f172a] hover:border-accent/60 hover:text-accent"
                         }`}
                       >
                         <span>Home</span>
                         <span className={`rounded px-1.5 py-0.5 text-[10px] transition-colors ${
                           activeSection === "home"
-                            ? "bg-accent text-bg-main font-bold"
+                            ? "bg-accent text-black font-bold"
                             : "bg-bg-main text-text-main"
                         }`}>
                           01
@@ -77,20 +75,19 @@ export default function Page() {
                       </Link>
                     </li>
 
-                    {/* CHI SONO */}
                     <li>
                       <Link 
                         href="/chi-sono"
                         className={`group flex items-center justify-between rounded-lg border px-4 py-3 font-mono text-xs font-semibold uppercase tracking-wider transition-all duration-150 ${
                           activeSection === "about"
-                            ? "border-accent bg-bg-card text-accent shadow-sm"
-                            : "border-border-custom bg-bg-card text-text-main hover:border-accent hover:text-accent"
+                            ? "border-accent bg-bg-card text-accent shadow-[0_4px_12px_rgba(0,255,102,0.2)]"
+                            : "border-border-custom bg-bg-card text-text-main shadow-[0_4px_0_0_#0f172a] hover:border-accent/60 hover:text-accent"
                         }`}
                       >
                         <span>Chi Sono</span>
                         <span className={`rounded px-1.5 py-0.5 text-[10px] transition-colors ${
                           activeSection === "about"
-                            ? "bg-accent text-bg-main font-bold"
+                            ? "bg-accent text-black font-bold"
                             : "bg-bg-main text-text-main"
                         }`}>
                           02
@@ -98,20 +95,19 @@ export default function Page() {
                       </Link>
                     </li>
 
-                    {/* PROGETTI */}
                     <li>
                       <Link 
                         href="/progetti"
                         className={`group flex items-center justify-between rounded-lg border px-4 py-3 font-mono text-xs font-semibold uppercase tracking-wider transition-all duration-150 ${
                           activeSection === "projects"
-                            ? "border-accent bg-bg-card text-accent shadow-sm"
-                            : "border-border-custom bg-bg-card text-text-main hover:border-accent hover:text-accent"
+                            ? "border-accent bg-bg-card text-accent shadow-[0_4px_12px_rgba(0,255,102,0.2)]"
+                            : "border-border-custom bg-bg-card text-text-main shadow-[0_4px_0_0_#0f172a] hover:border-accent/60 hover:text-accent"
                         }`}
                       >
                         <span>Progetti</span>
                         <span className={`rounded px-1.5 py-0.5 text-[10px] transition-colors ${
                           activeSection === "projects"
-                            ? "bg-accent text-bg-main font-bold"
+                            ? "bg-accent text-black font-bold"
                             : "bg-bg-main text-text-main"
                         }`}>
                           03
@@ -119,33 +115,31 @@ export default function Page() {
                       </Link>
                     </li>
 
-                    {/* CONTATTI */}
                     <li>
                       <Link 
                         href="/contatti"
                         className={`group flex items-center justify-between rounded-lg border px-4 py-3 font-mono text-xs font-semibold uppercase tracking-wider transition-all duration-150 ${
                           activeSection === "contacts"
-                            ? "border-accent bg-bg-card text-accent shadow-sm"
-                            : "border-border-custom bg-bg-card text-text-main hover:border-accent hover:text-accent"
+                            ? "border-accent bg-bg-card text-accent shadow-[0_4px_12px_rgba(0,255,102,0.2)]"
+                            : "border-border-custom bg-bg-card text-text-main shadow-[0_4px_0_0_#0f172a] hover:border-accent/60 hover:text-accent"
                         }`}
                       >
                         <span>Contatti</span>
                         <span className={`rounded px-1.5 py-0.5 text-[10px] transition-colors ${
                           activeSection === "contacts"
-                            ? "bg-accent text-bg-main font-bold"
+                            ? "bg-accent text-black font-bold"
                             : "bg-bg-main text-text-main"
                         }`}>
                           04
                         </span>
                       </Link>
                     </li>
-
                   </ul>
                 </nav>
               </div>
 
               {/* Social Link */}
-          <div className="mt-8 flex items-center gap-3 text-text-main">
+              <div className="mt-6 flex items-center gap-3 text-text-main">
                 <a href="https://github.com/paolagrillo/" target="_blank" rel="noreferrer" aria-label="Profilo GitHub" className="group rounded-lg border border-border-custom bg-bg-card p-2.5 hover:border-accent/50 hover:bg-bg-card transition-all">
                   <svg className="w-5 h-5 fill-current group-hover:text-accent group-hover:scale-110 transition-all" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />

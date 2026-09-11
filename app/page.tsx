@@ -35,11 +35,11 @@ export default function Page() {
 
       {/* Contenitore Principale */}
       <div className="relative z-10 mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
-        <div className="lg:flex lg:justify-between lg:gap-8">
+        <div className="lg:flex lg:justify-between lg:gap-8 lg:items-start">
           
           {/* COLONNA SINISTRA */}
           <div className="lg:w-4/12 xl:w-3/12 lg:sticky lg:top-0 lg:h-screen lg:pr-4">
-            <header className="flex h-full flex-col justify-between lg:py-24 py-12">
+            <header className="flex h-full flex-col justify-between lg:py-10 py-12">
               <div>
                 <h1 className="text-4xl font-bold tracking-tight text-text-main sm:text-5xl">
                   Paola Grillo
@@ -52,9 +52,9 @@ export default function Page() {
                 </p>
 
                 {/* Navigazione */}
-                <nav className="nav hidden lg:block mt-12" aria-label="Navigazione principale">
-                  <ul className="flex flex-col gap-3.5 max-w-[220px]">
-                    <li>
+                <nav className="nav hidden lg:block mt-8" aria-label="Navigazione principale">
+  <ul className="flex flex-col gap-2 max-w-[220px]">
+                        <li>
                       <Link 
                         href="/"
                         className={`group flex items-center justify-between rounded-lg border px-4 py-3 font-mono text-xs font-semibold uppercase tracking-wider transition-all duration-150 ${
