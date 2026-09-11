@@ -40,12 +40,12 @@ export default function ContactsPage() {
           
           {/* COLONNA SINISTRA (HEADER & NAV) */}
           <div className="lg:w-4/12 xl:w-3/12 lg:sticky lg:top-0 lg:h-screen lg:pr-4">
-            <header className="flex h-full flex-col justify-between lg:py-10 py-12">
+            <header className="flex h-full flex-col justify-between lg:pt-24 lg:pb-10 py-12">
               <div>
-                <h1 className="text-4xl font-bold tracking-tight text-text-main sm:text-5xl">
+                <h1 className="text-3xl font-bold tracking-tight text-text-main lg:text-4xl 2xl:text-5xl">
                   Paola Grillo
                 </h1>
-                <h2 className="mt-3 text-lg font-medium tracking-tight text-accent sm:text-xl">
+                <h2 className="mt-3 text-base font-medium tracking-tight text-accent lg:text-lg 2xl:text-xl">
                   Frontend Developer & UI/UX Designer
                 </h2>
                 <p className="mt-4 max-w-xs leading-normal text-text-sub">
