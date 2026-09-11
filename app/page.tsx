@@ -20,26 +20,24 @@ export default function Page() {
       <div 
         className="pointer-events-none fixed inset-0 z-0 opacity-20"
         style={{
-          backgroundImage: `radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px), linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px)`,
+          backgroundImage: `radial-gradient var(--bg-primary) 1px, transparent 1px), linear-gradient(to right,  var(--bg-primary) 1px, transparent 1px), linear-gradient(to bottom,  var(--bg-primary) 1px, transparent 1px)`,
           backgroundSize: '24px 24px, 48px 48px, 48px 48px'
         }}
       />
 
       {/* Spotlight */}
-      <div
-        className="pointer-events-none fixed -inset-px z-30 transition-opacity duration-300"
+      <div className="pointer-events-none fixed -inset-px z-30 transition-opacity duration-300"
         style={{
-          background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(0, 255, 102, 0.07), transparent 80%)`,
-        }}
+background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, color-mix(in srgb, var(--accent-color) 15%, transparent), transparent 80%)`,        }}
       />
 
       {/* Contenitore Principale */}
       <div className="relative z-10 mx-auto max-w-7xl px-6 md:px-12 lg:px-16">
-        <div className="lg:flex lg:justify-between lg:gap-8 lg:items-start">
+        <div className="lg:flex lg:justify-between lg:gap-4 lg:items-start">
           
           {/* COLONNA SINISTRA */}
           <div className="lg:w-4/12 xl:w-3/12 lg:sticky lg:top-0 lg:h-screen lg:pr-4">
-            <header className="flex h-full flex-col justify-between lg:pt-24 lg:pb-10 py-12">
+            <header className="flex h-full flex-col justify-between pt-6 lg:pt-8 lg:pb-10 pb-6">
               <div>
                 <h1 className="text-3xl font-bold tracking-tight text-text-main lg:text-4xl 2xl:text-5xl">
                   Paola Grillo
@@ -175,7 +173,7 @@ export default function Page() {
           </div>
 
           {/* COLONNA DESTRA */}
-          <main id="content" className="pt-24 lg:w-8/12 xl:w-9/12 lg:py-24 lg:pl-12 lg:border-l lg:border-border-custom space-y-24">
+          <main id="content" className="pt-6 lg:pt-8 lg:pb-24 lg:w-8/12 xl:w-9/12 lg:pl-12 lg:border-l lg:border-border-custom space-y-24">
             
             {/* 1. HERO SECTION */}
             <section id="home" className="scroll-mt-16 md:scroll-mt-24">

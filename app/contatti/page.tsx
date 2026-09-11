@@ -40,7 +40,7 @@ export default function ContactsPage() {
           
           {/* COLONNA SINISTRA (HEADER & NAV) */}
           <div className="lg:w-4/12 xl:w-3/12 lg:sticky lg:top-0 lg:h-screen lg:pr-4">
-            <header className="flex h-full flex-col justify-between lg:pt-24 lg:pb-10 py-12">
+            <header className="flex h-full flex-col justify-between pt-6 lg:pt-8 lg:pb-10 pb-6">
               <div>
                 <h1 className="text-3xl font-bold tracking-tight text-text-main lg:text-4xl 2xl:text-5xl">
                   Paola Grillo
@@ -182,8 +182,7 @@ export default function ContactsPage() {
           </div>
 
           {/* COLONNA DESTRA (CONTENUTO CONTATTI) */}
-          <main id="content" className="pt-24 lg:w-8/12 xl:w-9/12 lg:py-24 lg:pl-12 lg:border-l lg:border-border-custom space-y-24">
-            
+<main id="content" className="pt-6 lg:pt-8 lg:pb-24 lg:w-8/12 xl:w-9/12 lg:pl-12 lg:border-l lg:border-border-custom space-y-24">            
             <section id="contact" className="scroll-mt-16 md:scroll-mt-24 max-w-2xl">
               
               {/* Badge Status Immediato */}
